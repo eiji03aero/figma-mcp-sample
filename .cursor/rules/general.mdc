@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Reference
+- For development guidelines, please check `Codebase.md`
+- For styling, please use tailwind css.

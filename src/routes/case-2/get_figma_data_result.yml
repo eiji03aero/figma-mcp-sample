@@ -1,0 +1,969 @@
+metadata:
+  name: LENGA Prototype
+  lastModified: "2025-05-19T16:25:15Z"
+  thumbnailUrl: >-
+    https://s3-alpha.figma.com/thumbnails/988200fe-500c-499a-b54a-dc71b03f34cf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQ4GOSFWCWCRA4SV3%2F20250518%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250518T120000Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=f7f645656600b5077db1a842c204c9fb835044f64b1e7e4446a4c0052c1ef50c
+nodes:
+  - id: "165:34"
+    name: Desktop
+    type: FRAME
+    fills: fill_Q07VFK
+    layout: layout_P906NB
+    children:
+      - id: "165:66"
+        name: malte-schmidt-474904-unsplash
+        type: RECTANGLE
+        fills: fill_M55IF8
+        layout: layout_P906NB
+      - id: "165:67"
+        name: Rectangle 2
+        type: RECTANGLE
+        fills: fill_UH1AAD
+        layout: layout_P906NB
+      - id: "165:80"
+        name: Line
+        type: LINE
+        strokes: stroke_W9EISE
+        layout: layout_P906NB
+      - id: "277:63"
+        name: Line
+        type: LINE
+        strokes: stroke_W9EISE
+        layout: layout_P906NB
+      - id: "277:64"
+        name: Line
+        type: LINE
+        strokes: stroke_W9EISE
+        layout: layout_P906NB
+      - id: "165:123"
+        name: Group
+        type: GROUP
+        layout: layout_P906NB
+        children:
+          - id: "165:124"
+            name: Ellipse
+            type: ELLIPSE
+            fills: fill_VJK1SO
+            layout: layout_P906NB
+          - id: "165:125"
+            name: FACEBOOK風のアイコン素材
+            type: RECTANGLE
+            fills: fill_5XBIPE
+            layout: layout_P906NB
+      - id: "165:126"
+        name: Group
+        type: GROUP
+        layout: layout_P906NB
+        children:
+          - id: "165:127"
+            name: Ellipse
+            type: ELLIPSE
+            fills: fill_VJK1SO
+            layout: layout_P906NB
+          - id: "165:128"
+            name: twitterのアイコン素材 その2
+            type: RECTANGLE
+            fills: fill_7T8ICI
+            layout: layout_P906NB
+      - id: "169:34"
+        name: 次世代の留学を創るのは、 僕たちだ。
+        type: TEXT
+        textStyle: style_EIG9FF
+        fills: fill_Q07VFK
+        layout: layout_P906NB
+        text: |-
+          次世代の留学を創るのは、
+          僕たちだ。
+      - id: "178:34"
+        name: LENGAは、 留学準備の新たな常識となる 情報プラットフォ一ムです。
+        type: TEXT
+        textStyle: style_S69K22
+        fills: fill_Q07VFK
+        layout: layout_P906NB
+        text: |-
+          LENGAは、
+          留学準備の新たな常識となる
+          情報プラットフォ一ムです。
+      - id: "178:35"
+        name: 留学経験者 チュ一タ一事前登録ペ一ジ
+        type: TEXT
+        textStyle: style_S69K22
+        fills: fill_Q07VFK
+        layout: layout_P906NB
+        text: 留学経験者　チュ一タ一事前登録ペ一ジ
+      - id: "165:59"
+        name: VISION
+        type: TEXT
+        textStyle: style_6F0GSY
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: VISION
+      - id: "165:71"
+        name: Rectangle
+        type: RECTANGLE
+        fills: fill_0TNVUX
+        layout: layout_P906NB
+        borderRadius: 10px
+      - id: "165:84"
+        name: Group 8
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 50px
+        children:
+          - id: "165:85"
+            name: Rectangle 3
+            type: RECTANGLE
+            fills: fill_97I9R4
+            layout: layout_P906NB
+            borderRadius: 50px
+          - id: "165:86"
+            name: 留学情報提供を中心にした人財ネットワークを基盤に、 従来の留学経験をアップデートする。
+            type: TEXT
+            textStyle: style_KUS6C2
+            fills: fill_YOHDED
+            layout: layout_P906NB
+            text: |-
+              留学情報提供を中心にした人財ネットワークを基盤に、
+              従来の留学経験をアップデートする。
+      - id: "165:87"
+        name: Group 8.1
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 50px
+        children:
+          - id: "165:88"
+            name: Rectangle 3
+            type: RECTANGLE
+            fills: fill_97I9R4
+            layout: layout_P906NB
+            borderRadius: 50px
+          - id: "165:89"
+            name: ▼ もっと読む
+            type: TEXT
+            textStyle: style_EE7QIU
+            fills: fill_YOHDED
+            layout: layout_P906NB
+            text: ▼ もっと読む
+      - id: "165:90"
+        name: >-
+          留学をもっと踏み出しやすく。 留学をもっと充実したものに。 留学をもっと可能性を広げるチャレンジに。 私たちが創るのは、
+          留学をデザイナブルにする”留学4.0時代”です。
+        type: TEXT
+        textStyle: style_KY5MIY
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          留学をもっと踏み出しやすく。
+          留学をもっと充実したものに。
+          留学をもっと可能性を広げるチャレンジに。
+
+          私たちが創るのは、
+          留学をデザイナブルにする”留学4.0時代”です。
+      - id: "191:34"
+        name: ビジョン
+        type: TEXT
+        textStyle: style_3WGE0H
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: ビジョン
+      - id: "314:18"
+        name: Group 31
+        type: GROUP
+        layout: layout_P906NB
+        children:
+          - id: "165:114"
+            name: 留学1.0 ＜国レベルの時代＞
+            type: TEXT
+            textStyle: style_ZWEHV4
+            fills: fill_0TNVUX
+            layout: layout_P906NB
+            text: |-
+              留学1.0
+              ＜国レベルの時代＞
+          - id: "165:115"
+            name: 留学2.0 ＜エリート層の時代＞
+            type: TEXT
+            textStyle: style_ZWEHV4
+            fills: fill_HO02EV
+            layout: layout_P906NB
+            text: |-
+              留学2.0
+              ＜エリート層の時代＞
+          - id: "165:116"
+            name: 留学3.0 ＜大衆化の時代＞
+            type: TEXT
+            textStyle: style_ZWEHV4
+            fills: fill_5EVMNA
+            layout: layout_P906NB
+            text: |-
+              留学3.0
+              ＜大衆化の時代＞
+          - id: "165:117"
+            name: 留学4.0 ＜パーソナライズド留学の時代＞
+            type: TEXT
+            textStyle: style_BS2WQB
+            fills: fill_5EVMNA
+            layout: layout_P906NB
+            text: |-
+              留学4.0
+              ＜パーソナライズド留学の時代＞
+          - id: "165:118"
+            name: Arrow
+            type: IMAGE-SVG
+            strokes: stroke_X10J0Y
+            layout: layout_P906NB
+          - id: "165:119"
+            name: Arrow
+            type: IMAGE-SVG
+            strokes: stroke_X10J0Y
+            layout: layout_P906NB
+          - id: "165:120"
+            name: Arrow
+            type: IMAGE-SVG
+            strokes: stroke_X10J0Y
+            layout: layout_P906NB
+      - id: "165:174"
+        name: Group 6
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "165:175"
+            name: Rectangle 3
+            type: RECTANGLE
+            fills: fill_97I9R4
+            layout: layout_P906NB
+            borderRadius: 8px
+          - id: "165:176"
+            name: Polygon
+            type: REGULAR_POLYGON
+            fills: fill_0TNVUX
+            layout: layout_P906NB
+          - id: "165:177"
+            name: Polygon
+            type: REGULAR_POLYGON
+            fills: fill_0TNVUX
+            layout: layout_P906NB
+          - id: "165:178"
+            name: 事前登録はこちら
+            type: TEXT
+            textStyle: style_D2MRFI
+            fills: fill_YOHDED
+            layout: layout_P906NB
+            text: 事前登録はこちら
+      - id: "165:91"
+        name: 留学に関する漠然とした悩みの相談から 現地での住居・治安・生活などの細かな情報まで。 事前に準備を整え、渡航1日目から充実したスタートを。
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          留学に関する漠然とした悩みの相談から
+          現地での住居・治安・生活などの細かな情報まで。
+          事前に準備を整え、渡航1日目から充実したスタートを。
+      - id: "165:92"
+        name: 今までは難しかった留学生同士の情報交換。 同じ志を持った仲間とのプロジェクト。 留学後にもつながる、かけがえのない繋がりを。
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          今までは難しかった留学生同士の情報交換。
+          同じ志を持った仲間とのプロジェクト。
+          留学後にもつながる、かけがえのない繋がりを。
+      - id: "165:93"
+        name: >-
+          分野・学校・国境を超えた留学経験者同士のコラボレーション 学びのアウトプットの場、インターンシップ/ボランティア…
+          留学価値を最大化させるネットワーク
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          分野・学校・国境を超えた留学経験者同士のコラボレーション
+          学びのアウトプットの場、インターンシップ/ボランティア…
+          留学価値を最大化させるネットワーク
+      - id: "165:94"
+        name: 企業への就職のみならず、 スタートアップ・アカデミックキャリアについても 留学というグローバルチャレンジャーの先輩に相談しよう。
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          企業への就職のみならず、
+          スタートアップ・アカデミックキャリアについても
+          留学というグローバルチャレンジャーの先輩に相談しよう。
+      - id: "165:95"
+        name: >-
+          キャリアフォーラムに集まった大企業への就職だけでなく、 本当に自分に合った、自分が活きるキャリアを選ぶ。
+          社会人になってからも価値あるグローバルな人脈。
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          キャリアフォーラムに集まった大企業への就職だけでなく、
+          本当に自分に合った、自分が活きるキャリアを選ぶ。
+          社会人になってからも価値あるグローバルな人脈。
+      - id: "165:97"
+        name: 地域的・経済的な制約に関係なく、 自分の興味・関心に合った具体的な情報を、 必要なだけ、いつでも、どこでも。
+        type: TEXT
+        textStyle: style_RZFXNV
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          地域的・経済的な制約に関係なく、
+          自分の興味・関心に合った具体的な情報を、
+          必要なだけ、いつでも、どこでも。
+      - id: "277:56"
+        name: Group 30.2
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "277:57"
+            name: Group 10
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "314:19"
+        name: Group 30.3
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "314:20"
+            name: Group 10
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "314:25"
+        name: Group 30.4
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "314:26"
+            name: Group 10
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:129"
+        name: Group 15
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "165:130"
+            name: Group 14
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:141"
+        name: Group 17
+        type: GROUP
+        layout: layout_P906NB
+        children:
+          - id: "165:142"
+            name: Group 16
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+          - id: "165:148"
+            name: ビルのアイコン
+            type: RECTANGLE
+            fills: fill_AT0ZJL
+            layout: layout_P906NB
+          - id: "165:149"
+            name: 地球アイコン8
+            type: RECTANGLE
+            fills: fill_IIMDKJ
+            layout: layout_P906NB
+          - id: "165:150"
+            name: image 4.3
+            type: RECTANGLE
+            fills: fill_6T7DLQ
+            layout: layout_P906NB
+          - id: "165:151"
+            name: Polygon
+            type: REGULAR_POLYGON
+            fills: fill_EM4CEY
+            layout: layout_P906NB
+      - id: "165:152"
+        name: Group 19
+        type: GROUP
+        layout: layout_P906NB
+        children:
+          - id: "165:153"
+            name: image 4.2
+            type: RECTANGLE
+            fills: fill_IERQYV
+            layout: layout_P906NB
+          - id: "165:154"
+            name: Group 18
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:41"
+        name: image 2
+        type: RECTANGLE
+        fills: fill_7PLBFR
+        layout: layout_P906NB
+      - id: "165:42"
+        name: 留学？ じゃあまず聞いてみよう。
+        type: TEXT
+        textStyle: style_YOC3K6
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          留学？
+          じゃあまず聞いてみよう。
+      - id: "165:72"
+        name: SERVICE
+        type: TEXT
+        textStyle: style_6F0GSY
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: SERVICE
+      - id: "165:73"
+        name: サービス案内
+        type: TEXT
+        textStyle: style_W19DTA
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: サービス案内
+      - id: "165:74"
+        name: Rectangle
+        type: RECTANGLE
+        fills: fill_0TNVUX
+        layout: layout_P906NB
+        borderRadius: 10px
+      - id: "165:75"
+        name: PRE-REGISTRATION
+        type: TEXT
+        textStyle: style_6F0GSY
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: PRE-REGISTRATION
+      - id: "165:77"
+        name: Rectangle
+        type: RECTANGLE
+        fills: fill_0TNVUX
+        layout: layout_P906NB
+        borderRadius: 10px
+      - id: "165:39"
+        name: image 4
+        type: RECTANGLE
+        fills: fill_AVJ5SE
+        layout: layout_P906NB
+      - id: "165:40"
+        name: 留学経験者 事前登録フォーム
+        type: TEXT
+        textStyle: style_VEBM1T
+        fills: fill_YZGHGJ
+        layout: layout_P906NB
+        text: 留学経験者  事前登録フォーム
+      - id: "165:43"
+        name: あなたの留学経験を 次世代に。
+        type: TEXT
+        textStyle: style_TWUSV3
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          あなたの留学経験を
+          次世代に。
+      - id: "277:65"
+        name: 皆さんの貴重な経験・時間を使って、 ”ただ”相談を受ける時代はもう終わりです。
+        type: TEXT
+        textStyle: style_IV2EIE
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          皆さんの貴重な経験・時間を使って、
+          ”ただ”相談を受ける時代はもう終わりです。
+      - id: "165:44"
+        name: LENGAのネットワークが、 あなたの留学を次のステージへ。
+        type: TEXT
+        textStyle: style_IV2EIE
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: |-
+          LENGAのネットワークが、
+          あなたの留学を次のステージへ。
+      - id: "165:47"
+        name: Group 26
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "165:48"
+            name: あなたの貢献が交換可能なポイントに。
+            type: TEXT
+            textStyle: style_5I9NQS
+            fills: fill_5EVMNA
+            layout: layout_P906NB
+            text: あなたの貢献が交換可能なポイントに。
+          - id: "165:49"
+            name: Group 9
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:37"
+        name: image 4.2
+        type: RECTANGLE
+        fills: fill_K11HU0
+        layout: layout_P906NB
+      - id: "165:51"
+        name: Group 27
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "165:52"
+            name: 世代・国・分野を超えたネットワークに参画
+            type: TEXT
+            textStyle: style_5I9NQS
+            fills: fill_5EVMNA
+            layout: layout_P906NB
+            text: 世代・国・分野を超えたネットワークに参画
+          - id: "165:53"
+            name: Group 9.1
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "314:33"
+        name: Group 27.1
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "314:34"
+            name: あなたのコミットメントに感謝状を送付します
+            type: TEXT
+            textStyle: style_5I9NQS
+            fills: fill_5EVMNA
+            layout: layout_P906NB
+            text: あなたのコミットメントに感謝状を送付します
+          - id: "314:35"
+            name: Group 9.1
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "314:37"
+        name: Group 33
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "165:60"
+            name: Group 23
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:63"
+        name: Group 29
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 5px
+        children:
+          - id: "165:64"
+            name: Rectangle
+            type: RECTANGLE
+            fills: fill_1NAALE
+            strokes: stroke_5MCK30
+            layout: layout_P906NB
+            borderRadius: 5px
+          - id: "165:65"
+            name: メールアドレスを入力
+            type: TEXT
+            textStyle: style_SPH1JG
+            fills: fill_1EV44V
+            layout: layout_P906NB
+            text: メールアドレスを入力
+      - id: "165:78"
+        name: Rectangle
+        type: RECTANGLE
+        fills: fill_YZGHGJ
+        layout: layout_P906NB
+        borderRadius: 10px
+      - id: "165:83"
+        name: COPYRIGHT LENGA. All Rights Reserved.
+        type: TEXT
+        textStyle: style_S2RL91
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: COPYRIGHT LENGA. All Rights Reserved.
+      - id: "314:40"
+        name: Group 35
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 0px 0px 0px 0px
+        children:
+          - id: "314:39"
+            name: Group 34
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+          - id: "165:160"
+            name: Group 22
+            type: GROUP
+            layout: layout_P906NB
+            borderRadius: 0px 0px 0px 0px
+      - id: "165:171"
+        name: >-
+          ・親元を離れて海外教育機関に在籍した経験がある方 ・海外でのインターンシップ・ボランティア等の経験がある方 例
+          語学留学・交換留学・短期留学・学位取得留学（学士・修士・博士）・在外研究・ボーディングスクール留学・日本で所属する大学の海外研修
+          ※いわゆる帰国子女の方、留学国以外で生まれ育った方であれば、日本の教育機関（小学校・中学校・高校・大学）に在籍した経験がなくてもご登録いただけます。
+        type: TEXT
+        textStyle: style_NRFJ95
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: >-
+          ・親元を離れて海外教育機関に在籍した経験がある方
+
+          ・海外でのインターンシップ・ボランティア等の経験がある方
+
+
+          例
+
+          語学留学・交換留学・短期留学・学位取得留学（学士・修士・博士）・在外研究・ボーディングスクール留学・日本で所属する大学の海外研修
+
+
+          ※いわゆる帰国子女の方、留学国以外で生まれ育った方であれば、日本の教育機関（小学校・中学校・高校・大学）に在籍した経験がなくてもご登録いただけます。
+      - id: "165:172"
+        name: 事前登録頂いた方にはリリースに関するお知らせや 開発のアップデート情報をご案内させて頂きます。
+        type: TEXT
+        textStyle: style_SUP4IJ
+        fills: fill_EM4CEY
+        layout: layout_P906NB
+        text: |-
+          事前登録頂いた方にはリリースに関するお知らせや
+          開発のアップデート情報をご案内させて頂きます。
+      - id: "165:173"
+        name: 【 登録対象者 】
+        type: TEXT
+        textStyle: style_SE6VFH
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: 【 登録対象者 】
+      - id: "277:48"
+        name: 事前登録
+        type: TEXT
+        textStyle: style_W19DTA
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: 事前登録
+      - id: "354:1"
+        name: Rectangle
+        type: RECTANGLE
+        fills: fill_Q07VFK
+        layout: layout_P906NB
+      - id: "544:0"
+        name: Frame
+        type: FRAME
+        fills: fill_Q07VFK
+        layout: layout_P906NB
+      - id: "311:10"
+        name: Group 8.3
+        type: GROUP
+        layout: layout_P906NB
+        borderRadius: 30px
+        children:
+          - id: "311:11"
+            name: Rectangle 3
+            type: RECTANGLE
+            fills: fill_YZGHGJ
+            layout: layout_P906NB
+            borderRadius: 30px
+          - id: "311:12"
+            name: 事前登録をする
+            type: TEXT
+            textStyle: style_EIWBE3
+            fills: fill_YOHDED
+            layout: layout_P906NB
+            text: 事前登録をする
+      - id: "311:1"
+        name: lenga.25000px
+        type: RECTANGLE
+        fills: fill_42NLQD
+        layout: layout_P906NB
+      - id: "311:2"
+        name: PRE-REGISTRATION
+        type: TEXT
+        textStyle: style_JXDXHL
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: PRE-REGISTRATION
+      - id: "311:3"
+        name: VISION
+        type: TEXT
+        textStyle: style_JXDXHL
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: VISION
+      - id: "311:6"
+        name: SERVICE
+        type: TEXT
+        textStyle: style_JXDXHL
+        fills: fill_5EVMNA
+        layout: layout_P906NB
+        text: SERVICE
+globalVars:
+  styles:
+    fill_Q07VFK:
+      - "#FFFFFF"
+    layout_P906NB:
+      mode: none
+      sizing: {}
+    fill_M55IF8:
+      - type: IMAGE
+        imageRef: 263146afef61434ce61589cca93dc5e61853d8c9
+        scaleMode: FILL
+    fill_UH1AAD:
+      - "#1B3551"
+    stroke_W9EISE:
+      colors:
+        - "#DADADA"
+      strokeWeight: 1px
+    fill_VJK1SO:
+      - "#DADADA"
+    fill_5XBIPE:
+      - type: IMAGE
+        imageRef: 32f22db3dc8812ac378a892415f82c1c555f68b5
+        scaleMode: FILL
+    fill_7T8ICI:
+      - type: IMAGE
+        imageRef: 87049ef5eeb3d416f9bf60b0d200d07efa3b1386
+        scaleMode: FILL
+    style_EIG9FF:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 48
+      lineHeight: 2.0288548469543457em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    style_S69K22:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 30
+      lineHeight: 2.062328084309896em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    style_6F0GSY:
+      fontFamily: Roboto
+      fontWeight: 700
+      fontSize: 48
+      lineHeight: 1.171875em
+      letterSpacing: 8.333333333333332%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_5EVMNA:
+      - "#000000"
+    fill_0TNVUX:
+      - "#C4C4C4"
+    fill_97I9R4:
+      - "#1B486E"
+    style_KUS6C2:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.3648770650227864em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_YOHDED:
+      - "#F2F2F2"
+    style_EE7QIU:
+      fontFamily: Gothic A1
+      fontWeight: 700
+      fontSize: 18
+      lineHeight: 1.25em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_KY5MIY:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.3850415547688801em
+      textAlignHorizontal: CENTER
+      textAlignVertical: TOP
+    style_3WGE0H:
+      fontFamily: .Hiragino Sans GB Interface
+      fontWeight: 400
+      fontSize: 24
+      lineHeight: 1.3850415547688801em
+      letterSpacing: 8.333333333333332%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_ZWEHV4:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 24
+      lineHeight: 1.3748854001363118em
+      textAlignHorizontal: CENTER
+      textAlignVertical: TOP
+    fill_HO02EV:
+      - "#979797"
+    style_BS2WQB:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 18
+      lineHeight: 1.417769432067871em
+      textAlignHorizontal: CENTER
+      textAlignVertical: TOP
+    stroke_X10J0Y:
+      colors:
+        - "#000000"
+      strokeWeight: 1px
+    style_D2MRFI:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 25
+      lineHeight: 1.3525698852539063em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_RZFXNV:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.395348760816786em
+      textAlignHorizontal: CENTER
+      textAlignVertical: TOP
+    fill_AT0ZJL:
+      - type: IMAGE
+        imageRef: 7a2fa1ec43cc53aed922b708ac292673e49f7c14
+        scaleMode: FILL
+    fill_IIMDKJ:
+      - type: IMAGE
+        imageRef: cebed980c8e50a070a293268103e2bbe7d8fa147
+        scaleMode: FILL
+    fill_6T7DLQ:
+      - type: IMAGE
+        imageRef: 2e99cd86d290d88a5a3a5cab36ff4f074345a3e8
+        scaleMode: FILL
+    fill_EM4CEY:
+      - "#4B4B4B"
+    fill_IERQYV:
+      - type: IMAGE
+        imageRef: f3b12e89300d6b65ded190a5c381f528fc831ddf
+        scaleMode: FILL
+    fill_7PLBFR:
+      - type: IMAGE
+        imageRef: a0ddda1a9b88e433fade245079d5d62328929bc0
+        scaleMode: FILL
+    style_YOC3K6:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 48
+      lineHeight: 1.3850415547688801em
+      letterSpacing: 10.416666666666668%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_W19DTA:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 24
+      lineHeight: 1.3850415547688801em
+      letterSpacing: 8.333333333333332%
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_AVJ5SE:
+      - type: IMAGE
+        imageRef: 067cfac34bb43a1303655d05d123d4ae8b91ea83
+        scaleMode: FILL
+    style_VEBM1T:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 48
+      lineHeight: 1.3648770650227864em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_YZGHGJ:
+      - "#2F5681"
+    style_TWUSV3:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 48
+      lineHeight: 1.3953488667805989em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_IV2EIE:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.417769432067871em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_5I9NQS:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.395348760816786em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    fill_K11HU0:
+      - type: IMAGE
+        imageRef: 073f0ce00f8c5c4e0982eb77ce0f11178c97bde6
+        scaleMode: FILL
+    fill_1NAALE:
+      - type: IMAGE
+        imageRef: efe98099a0aa97c1aa64e286bc82e633cc9aed22
+        scaleMode: FILL
+    stroke_5MCK30:
+      colors:
+        - "#100E0E"
+      strokeWeight: 0.25px
+    style_SPH1JG:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 24
+      lineHeight: 1.417769432067871em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    fill_1EV44V:
+      - rgba(0, 0, 0, 0.26)
+    style_S2RL91:
+      fontFamily: Roboto
+      fontWeight: 300
+      fontSize: 24
+      lineHeight: 1.171875em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_NRFJ95:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 24
+      lineHeight: 1.3953488667805989em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    style_SUP4IJ:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 30
+      lineHeight: 1.4031805674235025em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_SE6VFH:
+      fontFamily: .Hiragino Kaku Gothic Interface
+      fontWeight: 400
+      fontSize: 36
+      lineHeight: 1.395348760816786em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    style_EIWBE3:
+      fontFamily: Roboto
+      fontWeight: 700
+      fontSize: 20
+      lineHeight: 1.171875em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    fill_42NLQD:
+      - type: IMAGE
+        imageRef: b944b33790d08febe043d84085f1e462f3c8901e
+        scaleMode: FILL
+    style_JXDXHL:
+      fontFamily: Roboto
+      fontWeight: 500
+      fontSize: 20
+      lineHeight: 1.7578125em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
