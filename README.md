@@ -9,9 +9,6 @@
 - [本来のデザイン](public/screenshots//original-design.png)
 
 - 条件
-  - tool
-    - get_figma_data
-    - download_figma_images
   - model
     - claude 3.5 sonnet
     - gpt-4.1
@@ -42,6 +39,7 @@ function Page() {
 
 - 結果
   - 画像を使っている場合はそれをfigmaからダウンロードして使ってくれる模様
+  - [get_figma_dataレスポンスのサンプル](src/routes/case-1/get_figma_data_result.yml)
   - 無念な内容
     - [すくしょ](public/screenshots/localhost_13000_case-1.png)
 
@@ -100,6 +98,10 @@ function Page() {
     - ダウンロードを5件ずつに区切ってやり始めた。賢い
   - 無駄なスタイリング
     - 随所にfontfamilyを指定している
+  - 長考した分もうちょっと内容を再現したものがでてきた
+    - [すくしょ](public/screenshots/localhost_13000_case-3.png)
+
+---
 
 # Thoughts
 
