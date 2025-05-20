@@ -14,6 +14,7 @@ import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
 import { Route as Case3IndexImport } from './routes/case-3/index'
 import { Route as Case2IndexImport } from './routes/case-2/index'
+import { Route as Case22IndexImport } from './routes/case-2-2/index'
 import { Route as Case21IndexImport } from './routes/case-2-1/index'
 import { Route as Case1IndexImport } from './routes/case-1/index'
 
@@ -34,6 +35,12 @@ const Case3IndexRoute = Case3IndexImport.update({
 const Case2IndexRoute = Case2IndexImport.update({
   id: '/case-2/',
   path: '/case-2/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const Case22IndexRoute = Case22IndexImport.update({
+  id: '/case-2-2/',
+  path: '/case-2-2/',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -74,6 +81,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Case21IndexImport
       parentRoute: typeof rootRoute
     }
+    '/case-2-2/': {
+      id: '/case-2-2/'
+      path: '/case-2-2'
+      fullPath: '/case-2-2'
+      preLoaderRoute: typeof Case22IndexImport
+      parentRoute: typeof rootRoute
+    }
     '/case-2/': {
       id: '/case-2/'
       path: '/case-2'
@@ -97,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/case-1': typeof Case1IndexRoute
   '/case-2-1': typeof Case21IndexRoute
+  '/case-2-2': typeof Case22IndexRoute
   '/case-2': typeof Case2IndexRoute
   '/case-3': typeof Case3IndexRoute
 }
@@ -105,6 +120,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/case-1': typeof Case1IndexRoute
   '/case-2-1': typeof Case21IndexRoute
+  '/case-2-2': typeof Case22IndexRoute
   '/case-2': typeof Case2IndexRoute
   '/case-3': typeof Case3IndexRoute
 }
@@ -114,16 +130,24 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/case-1/': typeof Case1IndexRoute
   '/case-2-1/': typeof Case21IndexRoute
+  '/case-2-2/': typeof Case22IndexRoute
   '/case-2/': typeof Case2IndexRoute
   '/case-3/': typeof Case3IndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/case-1' | '/case-2-1' | '/case-2' | '/case-3'
+  fullPaths: '/' | '/case-1' | '/case-2-1' | '/case-2-2' | '/case-2' | '/case-3'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/case-1' | '/case-2-1' | '/case-2' | '/case-3'
-  id: '__root__' | '/' | '/case-1/' | '/case-2-1/' | '/case-2/' | '/case-3/'
+  to: '/' | '/case-1' | '/case-2-1' | '/case-2-2' | '/case-2' | '/case-3'
+  id:
+    | '__root__'
+    | '/'
+    | '/case-1/'
+    | '/case-2-1/'
+    | '/case-2-2/'
+    | '/case-2/'
+    | '/case-3/'
   fileRoutesById: FileRoutesById
 }
 
@@ -131,6 +155,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   Case1IndexRoute: typeof Case1IndexRoute
   Case21IndexRoute: typeof Case21IndexRoute
+  Case22IndexRoute: typeof Case22IndexRoute
   Case2IndexRoute: typeof Case2IndexRoute
   Case3IndexRoute: typeof Case3IndexRoute
 }
@@ -139,6 +164,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   Case1IndexRoute: Case1IndexRoute,
   Case21IndexRoute: Case21IndexRoute,
+  Case22IndexRoute: Case22IndexRoute,
   Case2IndexRoute: Case2IndexRoute,
   Case3IndexRoute: Case3IndexRoute,
 }
@@ -156,6 +182,7 @@ export const routeTree = rootRoute
         "/",
         "/case-1/",
         "/case-2-1/",
+        "/case-2-2/",
         "/case-2/",
         "/case-3/"
       ]
@@ -168,6 +195,9 @@ export const routeTree = rootRoute
     },
     "/case-2-1/": {
       "filePath": "case-2-1/index.tsx"
+    },
+    "/case-2-2/": {
+      "filePath": "case-2-2/index.tsx"
     },
     "/case-2/": {
       "filePath": "case-2/index.tsx"

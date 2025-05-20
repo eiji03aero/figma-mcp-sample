@@ -2,6 +2,8 @@
 
 - figma mcpの実験場
 
+# Todo
+
 # 実験
 
 ## 架空のサービスのLPを実装する
@@ -144,6 +146,53 @@ function Page() {
     - 検索ボタンが右寄せじゃない
     - 新規作成 / 削除ボタンが別の列じゃない
     - デザインにないチェックボックス (削除ボタンから気を利かせてくれた？)
+
+### Case 2-2: Best practiceを当てる
+
+- mcpのウェブサイトで[Best practice](https://www.framelink.ai/docs/best-practices)とされていたものを当てた
+  - auto layout
+  - naming group, frames
+  - spacer (additional)
+- [でざいん](public/screenshots/Project%20list%20page%202-2.png)
+
+- プロンプト
+
+```
+- このfigmaのデザインを元にUIを実装してください
+  - https://www.figma.com/design/ZIFRDlnwD904K0ZhDqt17c/Lenga-saas?node-id=5-2&t=qKrNigKpqDKjIxrD-4
+  - `get_figma_data` toolを使ってfigmaからスタイルデータを取り寄せて
+  - 取得したスタイルデータを忠実に再現したUIを実装して
+  - 画像が必要な場合は`public/case-2-2-images`に配置して
+- 実装は以下のテンプレートに沿いつつ、src/routes/case-2-2/index.tsxというファイルに実装して
+
+import { createFileRoute } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/case-2-2")({
+	component: Page,
+});
+
+function Page() {
+	return /* actual ui implementation comes here */
+}
+```
+
+- 結果
+  - 名前に応じて、程よい感じのコンポーネント切り出しをしてくれた
+    - NavItem, FormInput
+  - 出来栄えは80点といったところ
+    - [すくしょ](public/screenshots/Project%20list%20page%202-2.png)
+    - どこからもってきたのかわからないpadding
+      - これだけは解せない。いまいちである
+    - ページの横幅が固定の前提になっている
+    - テーブルも横幅に可変にできていない
+      - これはfigma側でfit containerにすべきところがfix valueになっていたのが原因
+    - なぜか右寄せになったflex box
+  - figmaサイドへの負担が高そう
+    - 徹底した構造化をしなければいけないため
+      - auto layout
+      - fill container
+      - hug
+    - 見逃した分が手直しとしてそのまま返ってくる
 
 ---
 
