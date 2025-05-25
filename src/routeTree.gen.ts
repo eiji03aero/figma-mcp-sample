@@ -11,48 +11,27 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as ServiceWorkerDemoImport } from './routes/service-worker-demo'
+import { Route as HelloWorldImport } from './routes/hello-world'
 import { Route as IndexImport } from './routes/index'
-import { Route as Case3IndexImport } from './routes/case-3/index'
-import { Route as Case2IndexImport } from './routes/case-2/index'
-import { Route as Case22IndexImport } from './routes/case-2-2/index'
-import { Route as Case21IndexImport } from './routes/case-2-1/index'
-import { Route as Case1IndexImport } from './routes/case-1/index'
 
 // Create/Update Routes
+
+const ServiceWorkerDemoRoute = ServiceWorkerDemoImport.update({
+  id: '/service-worker-demo',
+  path: '/service-worker-demo',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const HelloWorldRoute = HelloWorldImport.update({
+  id: '/hello-world',
+  path: '/hello-world',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const Case3IndexRoute = Case3IndexImport.update({
-  id: '/case-3/',
-  path: '/case-3/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const Case2IndexRoute = Case2IndexImport.update({
-  id: '/case-2/',
-  path: '/case-2/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const Case22IndexRoute = Case22IndexImport.update({
-  id: '/case-2-2/',
-  path: '/case-2-2/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const Case21IndexRoute = Case21IndexImport.update({
-  id: '/case-2-1/',
-  path: '/case-2-1/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const Case1IndexRoute = Case1IndexImport.update({
-  id: '/case-1/',
-  path: '/case-1/',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -67,39 +46,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/case-1/': {
-      id: '/case-1/'
-      path: '/case-1'
-      fullPath: '/case-1'
-      preLoaderRoute: typeof Case1IndexImport
+    '/hello-world': {
+      id: '/hello-world'
+      path: '/hello-world'
+      fullPath: '/hello-world'
+      preLoaderRoute: typeof HelloWorldImport
       parentRoute: typeof rootRoute
     }
-    '/case-2-1/': {
-      id: '/case-2-1/'
-      path: '/case-2-1'
-      fullPath: '/case-2-1'
-      preLoaderRoute: typeof Case21IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/case-2-2/': {
-      id: '/case-2-2/'
-      path: '/case-2-2'
-      fullPath: '/case-2-2'
-      preLoaderRoute: typeof Case22IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/case-2/': {
-      id: '/case-2/'
-      path: '/case-2'
-      fullPath: '/case-2'
-      preLoaderRoute: typeof Case2IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/case-3/': {
-      id: '/case-3/'
-      path: '/case-3'
-      fullPath: '/case-3'
-      preLoaderRoute: typeof Case3IndexImport
+    '/service-worker-demo': {
+      id: '/service-worker-demo'
+      path: '/service-worker-demo'
+      fullPath: '/service-worker-demo'
+      preLoaderRoute: typeof ServiceWorkerDemoImport
       parentRoute: typeof rootRoute
     }
   }
@@ -109,64 +67,42 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/case-1': typeof Case1IndexRoute
-  '/case-2-1': typeof Case21IndexRoute
-  '/case-2-2': typeof Case22IndexRoute
-  '/case-2': typeof Case2IndexRoute
-  '/case-3': typeof Case3IndexRoute
+  '/hello-world': typeof HelloWorldRoute
+  '/service-worker-demo': typeof ServiceWorkerDemoRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/case-1': typeof Case1IndexRoute
-  '/case-2-1': typeof Case21IndexRoute
-  '/case-2-2': typeof Case22IndexRoute
-  '/case-2': typeof Case2IndexRoute
-  '/case-3': typeof Case3IndexRoute
+  '/hello-world': typeof HelloWorldRoute
+  '/service-worker-demo': typeof ServiceWorkerDemoRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/case-1/': typeof Case1IndexRoute
-  '/case-2-1/': typeof Case21IndexRoute
-  '/case-2-2/': typeof Case22IndexRoute
-  '/case-2/': typeof Case2IndexRoute
-  '/case-3/': typeof Case3IndexRoute
+  '/hello-world': typeof HelloWorldRoute
+  '/service-worker-demo': typeof ServiceWorkerDemoRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/case-1' | '/case-2-1' | '/case-2-2' | '/case-2' | '/case-3'
+  fullPaths: '/' | '/hello-world' | '/service-worker-demo'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/case-1' | '/case-2-1' | '/case-2-2' | '/case-2' | '/case-3'
-  id:
-    | '__root__'
-    | '/'
-    | '/case-1/'
-    | '/case-2-1/'
-    | '/case-2-2/'
-    | '/case-2/'
-    | '/case-3/'
+  to: '/' | '/hello-world' | '/service-worker-demo'
+  id: '__root__' | '/' | '/hello-world' | '/service-worker-demo'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  Case1IndexRoute: typeof Case1IndexRoute
-  Case21IndexRoute: typeof Case21IndexRoute
-  Case22IndexRoute: typeof Case22IndexRoute
-  Case2IndexRoute: typeof Case2IndexRoute
-  Case3IndexRoute: typeof Case3IndexRoute
+  HelloWorldRoute: typeof HelloWorldRoute
+  ServiceWorkerDemoRoute: typeof ServiceWorkerDemoRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  Case1IndexRoute: Case1IndexRoute,
-  Case21IndexRoute: Case21IndexRoute,
-  Case22IndexRoute: Case22IndexRoute,
-  Case2IndexRoute: Case2IndexRoute,
-  Case3IndexRoute: Case3IndexRoute,
+  HelloWorldRoute: HelloWorldRoute,
+  ServiceWorkerDemoRoute: ServiceWorkerDemoRoute,
 }
 
 export const routeTree = rootRoute
@@ -180,30 +116,18 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/case-1/",
-        "/case-2-1/",
-        "/case-2-2/",
-        "/case-2/",
-        "/case-3/"
+        "/hello-world",
+        "/service-worker-demo"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/case-1/": {
-      "filePath": "case-1/index.tsx"
+    "/hello-world": {
+      "filePath": "hello-world.tsx"
     },
-    "/case-2-1/": {
-      "filePath": "case-2-1/index.tsx"
-    },
-    "/case-2-2/": {
-      "filePath": "case-2-2/index.tsx"
-    },
-    "/case-2/": {
-      "filePath": "case-2/index.tsx"
-    },
-    "/case-3/": {
-      "filePath": "case-3/index.tsx"
+    "/service-worker-demo": {
+      "filePath": "service-worker-demo.tsx"
     }
   }
 }
